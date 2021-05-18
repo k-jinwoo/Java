@@ -1,0 +1,23 @@
+package ch04;
+
+/*
+ * 날짜 : 2021/05/17
+ * 이름 : 김진우
+ * 내용 : OpEx5_2
+ */
+public class P63 {
+	public static void main(String[] args) {
+		int a = 10;
+		int b = 5;
+		
+		// & 연산
+		System.out.println(a == b & test());
+		
+		// && 연산
+		System.out.println(a == b && test());
+	}
+	public static boolean test() {
+		System.out.println("test()메서드 실행됨");
+		return true;
+	}
+}
