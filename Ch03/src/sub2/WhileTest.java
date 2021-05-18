@@ -19,8 +19,8 @@ public class WhileTest {
 		// do ~ while
 		int eSum = 0;
 		int i = 1;
-		// 최초 1번은 실행하는 반복문
-		do {
+		
+		do {	// 최초 1번은 실행하는 반복문
 			if(i%2==0) {
 			eSum += i;
 			}
@@ -38,10 +38,11 @@ public class WhileTest {
 		}
 		System.out.println("5와 7의 최소공배수 : "+num);
 		
-		//continue
+		// continue
 		int total = 0;
 		for(int j=1; j<=10; j++) {
 			if(j % 2 == 1) {
+				// 반복문 상위로 이동
 				continue;
 			}
 			total += j;
